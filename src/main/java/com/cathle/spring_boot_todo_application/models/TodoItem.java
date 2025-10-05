@@ -16,6 +16,7 @@ import java.time.Instant;
 @Entity
 public class TodoItem {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
 
 
     @Getter
